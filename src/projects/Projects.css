@@ -1,0 +1,8 @@
+.Projects ul {
+  flex-direction: column;
+  align-items: center;
+}
+
+.Projects ul li {
+  margin: 0.5rem;
+}

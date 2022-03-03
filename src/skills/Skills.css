@@ -1,0 +1,15 @@
+.Skills ul {
+  margin: 0 auto;
+  width: 80vw;
+}
+
+.Skills .react-icons {
+  flex-direction: column-reverse;
+  color: blueviolet;
+  font-size: 4rem;
+  margin: 0.5rem;
+}
+
+.Skills .react-icons > span {
+  font-size: 1rem;
+}
