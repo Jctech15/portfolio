@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <div className="Projects">
       <h3>Projects</h3>
-      <ul>
+      <ul className="projectList">
         <li>
           <img className="projectImg" src={Projectimg} alt="projectImg" />
         </li>

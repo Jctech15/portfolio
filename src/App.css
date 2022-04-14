@@ -3,7 +3,7 @@
 }
 
 .container {
-  padding: 10px;
+  padding: 20px;
   margin: 0 auto;
 }
 
@@ -24,4 +24,10 @@ img {
 .react-icons {
   display: flex;
   vertical-align: middle;
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    margin: 8rem;
+  }
 }

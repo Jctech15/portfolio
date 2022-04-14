@@ -9,3 +9,33 @@ h1 {
   display: block;
   margin: 0 auto;
 }
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  h1 {
+    color: green;
+    margin-bottom: auto;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .details {
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  h1 {
+    color: blue;
+  }
+  .hero {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .details {
+    align-self: center;
+  }
+}
