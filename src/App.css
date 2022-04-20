@@ -4,7 +4,7 @@
 
 .container {
   padding: 20px;
-  margin: 0 auto;
+  margin: 2rem;
 }
 
 ul {
@@ -26,8 +26,14 @@ img {
   vertical-align: middle;
 }
 
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .container {
+    margin: 4rem;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .container {
-    margin: 8rem;
+    margin: 6rem;
   }
 }

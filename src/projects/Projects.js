@@ -12,7 +12,8 @@ export default function Projects() {
         <li>
           <img className="projectImg" src={Projectimg} alt="projectImg" />
         </li>
-        <li>
+
+        <li className="pleaseMove">
           <img className="projectImg" src={Projectimg} alt="projectImg" />
         </li>
         <li>

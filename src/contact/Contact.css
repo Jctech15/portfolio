@@ -1,6 +1,6 @@
-.Contact {
+/* .Contact {
   border: 2px solid green;
-}
+} */
 
 .Contact ul {
   width: 80vw;
@@ -19,24 +19,48 @@
 }
 
 .Contact form {
-  border: 2px solid pink;
+  /* border: 2px solid pink; */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 input[type="text"] {
-  width: 80vw;
+  width: 62vw;
   height: 5vh;
   margin: 0.5rem;
 }
 
 #textarea {
   margin: 1rem;
-  width: 39vh;
+  width: 40vh;
   resize: none;
 }
 
 .Contact button {
-  align-self: flex-start;
+  display: block;
+  margin: 0 auto;
+  padding: 15px 20px;
+  font-size: 1rem;
+  background-color: rgb(119, 22, 145);
+  color: white;
+  border-radius: 3px;
+  border: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  h4 {
+    color: green;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1199px) {
+  h4 {
+    color: blue;
+  }
+}
+@media screen and (min-width: 1200px) {
+  h4 {
+    color: pink;
+  }
 }

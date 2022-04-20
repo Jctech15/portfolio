@@ -13,7 +13,18 @@ img {
 @media screen and (min-width: 768px) and (max-width: 992px) {
   h3 {
     font-size: 2rem;
-    color: red;
+    color: green;
+  }
+  .Projects ul {
+    align-items: center;
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  h3 {
+    font-size: 2rem;
+    color: blue;
   }
   .Projects ul {
     flex-direction: row;
@@ -21,5 +32,14 @@ img {
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
+  h3 {
+    font-size: 2rem;
+
+    color: pink;
+  }
+  .Projects ul {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
