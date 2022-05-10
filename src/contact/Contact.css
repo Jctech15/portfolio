@@ -13,10 +13,6 @@
   margin-bottom: 1rem;
 }
 
-.Contact li {
-  display: flex;
-}
-
 .Contact .react-icons {
   color: blue;
   font-size: 3rem;
@@ -26,13 +22,15 @@
 input[type="text"] {
   height: 4vh;
   width: 135%;
-  margin: 0.5rem;
 }
 
 #textarea {
-  margin: 0.5rem;
   width: 100%;
   resize: none;
+}
+
+.formMargin {
+  margin: 0.5rem;
 }
 
 .Contact button {
@@ -60,6 +58,52 @@ input[type="text"] {
 @media screen and (min-width: 768px) and (max-width: 992px) {
   h4 {
     color: green;
+  }
+
+  .flexContact {
+    flex-direction: row;
+  }
+
+  .Contact p {
+    line-height: 2rem;
+  }
+
+  .tabletFlex {
+    align-self: start;
+    width: 15rem;
+  }
+
+  .contactForm {
+    flex-grow: 2;
+    margin: auto 3rem;
+  }
+
+  .Contact ul {
+    width: 15rem;
+    justify-content: space-between;
+    margin: 1rem auto;
+  }
+  .Contact .react-icons {
+    display: flex;
+    color: green;
+    font-size: 2.5rem;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
+  input[type="text"] {
+    height: 4vh;
+    width: 200%;
+  }
+
+  #textarea {
+    width: 150%;
+    resize: none;
+  }
+
+  .formMargin,
+  .submitButton {
+    margin: 0.5rem 1.5rem;
   }
 }
 

@@ -6,44 +6,45 @@ export default function Contact() {
     <div className="Contact">
       <h4>Contact Me!</h4>
       <div className="flexContact">
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim
-          accusamus laboriosam culpa quidem dignissimos? Fugit, ex expedita
-          voluptatibus reprehenderit autem sequi? Provident nam ea voluptate
-          laborum aspernatur at quod nemo!
-        </p>
-        <ul>
-          <li>
-            <a className="react-icons" href="#">
-              <FaTwitter />
-            </a>
-          </li>
-          <li>
-            <a className="react-icons" href="#">
-              <FaTwitter />
-            </a>
-          </li>
-          <li>
-            <a className="react-icons" href="#">
-              <FaTwitter />
-            </a>
-          </li>
-          <li>
-            <a className="react-icons" href="#">
-              <FaTwitter />
-            </a>
-          </li>
-        </ul>
+        <div className="tabletFlex">
+          <p>
+            Feel free to contact me for coffe chat virtually or even a short
+            chat. You can find me on social media or you can send me a message
+            here!
+          </p>
+          <ul>
+            <li>
+              <a className="react-icons" href="#">
+                <FaTwitter />
+              </a>
+            </li>
+            <li>
+              <a className="react-icons" href="#">
+                <FaTwitter />
+              </a>
+            </li>
+            <li>
+              <a className="react-icons" href="#">
+                <FaTwitter />
+              </a>
+            </li>
+            <li>
+              <a className="react-icons" href="#">
+                <FaTwitter />
+              </a>
+            </li>
+          </ul>
+        </div>
         <form className="contactForm">
-          <div className="name">
+          <div className="name formMargin">
             <input type="text" placeholder="name" />
             <label for="name" autocomplete="off"></label>
           </div>
-          <div className="email">
+          <div className="email formMargin">
             <input type="text" placeholder="email" />
             <label for="email" autocomplete="off"></label>
           </div>
-          <div className="message">
+          <div className="message formMargin">
             <textarea
               id="textarea"
               name="message"
@@ -53,7 +54,9 @@ export default function Contact() {
               autocomplete="off"
             ></textarea>
           </div>
-          <button type="submit">Send Message</button>
+          <div className="submitButton">
+            <button type="submit">Send Message</button>
+          </div>
         </form>
       </div>
     </div>
